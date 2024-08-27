@@ -38,6 +38,9 @@ p{
 .lead{
     color: #fff;
 }
+button   {
+    margin: 10px;
+}
 .btn-primary:hover{
     background-color: #0f5bb5;
     transform: scale(1.05);  
@@ -82,22 +85,10 @@ h1{
     color: #fff;
     text-shadow: .1em .1em 0 hsl(200 50% 30%);
 }
-.text-center .btn{
-    background-color: #004aad;
-    font-weight: bold;
+.form-label {
+    font-size: 20px; 
+    margin: 10px 0 10px 0;
 }
-.text-center .btn{
-    color: #fff;
-    background-color: #004aad;
-    font-size: small;
-    margin: 5px;
-    text-decoration: none;
-}
-.text-center .btn:hover{
-    color: #fff;
-    background-color: #004aad;
-    font-size: small;
-    margin: 5px;
-    text-decoration: none;
-    filter: brightness(0.5);
+.is-invalid {
+    border-color: #dc3545; 
 }

@@ -9,10 +9,8 @@ function handleScroll() {
         if (rect.top < windowHeight && rect.bottom > 0) {
             element.classList.add('visible');
         } 
-        // else {
-        //     element.classList.remove('visible');
-        // }
     }
 }
 window.addEventListener('scroll', handleScroll);
 window.addEventListener('load', handleScroll);
+
