@@ -59,17 +59,17 @@
 }
 .slide-in-right-1 {
     opacity: 0;
-    transform: translateX(100%);
+    transform: translateX(20%);
     transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 .slide-in-right-2 {
     opacity: 0;
-    transform: translateX(100%);
+    transform: translateX(20%);
     transition: opacity 0.75s ease-out, transform 0.75s ease-out;
 }
 .slide-in-right-3 {
     opacity: 0;
-    transform: translateX(100%);
+    transform: translateX(20%);
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
 .slide-in-right.visible {
@@ -97,17 +97,17 @@
 }
 .slide-in-left-1 {
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateX(-20%);
     transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 }
 .slide-in-left-2 {
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateX(-20%);
     transition: opacity 0.75s ease-out, transform 0.75s ease-out;
 }
 .slide-in-left-3 {
     opacity: 0;
-    transform: translateX(-100%);
+    transform: translateX(-20%);
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
 .slide-in-left.visible {
